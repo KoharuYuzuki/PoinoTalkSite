@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Zen Maru Gothic", serif;
+  @apply text-dark font-bold;
+}
+
+dialog {
+  @apply overflow-visible;
+
+  &::backdrop {
+    @apply bg-transparent;
+  }
+}
+
+body {
+  @apply bg-main;
+
+  &.is-firefox {
+    * {
+      scrollbar-width: thin;
+    }
+    .scrollbar-light {
+      scrollbar-color: #F4FAFA transparent;
+    }
+    .scrollbar-dark {
+      scrollbar-color: #3E7F7D transparent;
+    }
+  }
+
+  &:not(.is-firefox) {
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-corner {
+      background-color: transparent;
+    }
+    .scrollbar-light {
+      &::-webkit-scrollbar-thumb {
+        background-color: #F4FAFA;
+      }
+    }
+    .scrollbar-dark {
+      &::-webkit-scrollbar-thumb {
+        background-color: #3E7F7D;
+      }
+    }
+  }
+}
+
+#app {
+  @apply flex flex-col;
+}
