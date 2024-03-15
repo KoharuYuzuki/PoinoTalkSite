@@ -54,12 +54,10 @@ export default defineComponent({
               <Link underline={ false } href="#license">
                 {() => <p class="text-light">利用規約について</p>}
               </Link>
-              {/* <Link newTab={ true } underline={ false } href="https://koharuyuzuki.github.io/poinotalk/latest/"> */}
-              <Link newTab={ false } underline={ false } href="#">
+              <Link newTab={ true } underline={ false } href="https://koharuyuzuki.github.io/poinotalk/latest/">
                 {() => (
                   <div class="w-fit h-fit bg-main flex rounded-lg">
-                    {/* <p class="text-accent text-sm mx-2 my-1">ブラウザで使ってみる</p> */}
-                    <p class="text-accent text-sm mx-2 my-1">近日公開</p>
+                    <p class="text-accent text-sm mx-2 my-1">ブラウザで使ってみる</p>
                   </div>
                 )}
               </Link>
@@ -150,9 +148,9 @@ export default defineComponent({
                 </div>
                 <div class="flex flex-col gap-2">
                   <p class="text-accent-light">Links</p>
-                  {/* <Link newTab={ true } underline={ false } href="https://koharuyuzuki.github.io/poinotalk/latest/">
+                  <Link newTab={ true } underline={ false } href="https://koharuyuzuki.github.io/poinotalk/latest/">
                     {() => <p class="text-light">ブラウザで使ってみる</p>}
-                  </Link> */}
+                  </Link>
                   <Link newTab={ true } underline={ false } href="https://github.com/KoharuYuzuki/PoinoTalk">
                     {() => <p class="text-light">GitHub</p>}
                   </Link>

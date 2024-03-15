@@ -15,16 +15,13 @@ export default defineComponent({
           テキスト読み上げソフト
         </p>
         <Link
-          // newTab={ true }
-          newTab={ false }
+          newTab={ true }
           underline={ false }
-          // href="https://koharuyuzuki.github.io/poinotalk/latest/"
-          href="#"
+          href="https://koharuyuzuki.github.io/poinotalk/latest/"
         >
           {() => (
             <div class="w-fit h-fit bg-accent px-4 py-3 rounded-xl">
-              {/* <p class="text-main">ブラウザで使ってみる</p> */}
-              <p class="text-main">近日公開</p>
+              <p class="text-main">ブラウザで使ってみる</p>
             </div>
           )}
         </Link>
