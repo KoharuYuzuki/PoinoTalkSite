@@ -27,7 +27,7 @@ export default defineComponent({
         </Link>
         <img
           class="w-full max-w-[800px] h-auto"
-          src="./assets/screenshot.png"
+          src="./assets/screenshot-1100x800.png"
           alt="スクリーンショット"
         ></img>
       </div>
