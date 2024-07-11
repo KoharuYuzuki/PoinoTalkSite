@@ -16,7 +16,7 @@ export default defineComponent({
         ></img>
         <div class="flex flex-col items-center gap-4">
           <p>搭載キャラクター No.01、レイチーです。</p>
-          <p>01なのでレイチーです。</p>
+          <p>01 (れい・いち) なのでレイチーです。</p>
         </div>
         <h3 class="text-2xl">レイニー</h3>
         <img

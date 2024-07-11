@@ -9,9 +9,10 @@ export default defineComponent({
       >
         <h2 class="text-3xl">PoinoTalkとは</h2>
         <div class="flex flex-col items-center gap-4">
-          <p>PoinoTalkはフォルマント合成を用いたテキスト読み上げソフトです。</p>
+          <p>PoinoTalkはなかの人がいないテキスト読み上げソフトです。</p>
           <p>一般的な音声合成ソフトは、声優さんの声を元に音声を合成していますが、</p>
-          <p>PoinoTalkはエンベロープからフォルマントを計算し、逆フーリエ変換で音声を合成しています。</p>
+          <p>PoinoTalkはあらかじめ設定された周波数領域のエンベロープから、</p>
+          <p>フーリエ変換などを用いてソース・フィルタモデルに似た方法で音声を合成しています。</p>
         </div>
         <h3 class="text-2xl">poinoとの違い</h3>
         <div class="flex flex-col items-center gap-4">

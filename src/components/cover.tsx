@@ -10,7 +10,7 @@ export default defineComponent({
       >
         <h1 class="text-5xl font-medium">PoinoTalk</h1>
         <p class="text-lg text-center break-keep">
-          フォルマント合成を用いた
+          なかの人がいない
           <wbr/>
           テキスト読み上げソフト
         </p>
